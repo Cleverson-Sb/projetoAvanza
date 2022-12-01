@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1669914251 svg {
+        width: calc(100% + 1.3px);
+        height: 121px;
+    }
+}
+:root{
+    --cor0: #8d1794;
+    --cor1: #FF9016;
+    --cor2: #13162F;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor2);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > img{
+    font-weight: none;
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.411));
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.425);
+}
+
+nav > a{
+    color: var(--cor0);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: .5s;
+}
+
+.custom-shape-divider-top-1669915133 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1669915133 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1669915133 .shape-fill {
+    fill: #FF9016;
+}  
