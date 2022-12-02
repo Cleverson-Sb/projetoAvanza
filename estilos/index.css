@@ -95,4 +95,45 @@ main p{
     text-align: justify;
     font-weight: normal;
     font-size: 1.3em;
+    padding: 10px;
+    margin: 10px;
+}
+
+main img{
+    width: 100%;
+}
+
+main nav.faicha{
+    background-color: white;
+    margin: 10px;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+main a:hover{
+    background-image: linear-gradient(to bottom left, var(--cor0), var(--cor1));
+}
+
+main div#video{
+    background-color: var(--cor0);
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57.002%;
+}
+
+main div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
