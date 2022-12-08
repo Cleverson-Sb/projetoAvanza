@@ -140,7 +140,7 @@ main a.link__antes{
     font-weight: normal;
 }
 
-main a:hover{
+main a.link__antes:hover{
     background-image: linear-gradient(to bottom left, var(--cor0), var(--cor1));
 }
 
@@ -191,8 +191,8 @@ aside a{
     border-radius: 10px;
     display: inline-flex;
     margin: 10px;
-    width: 400px;
-    height: 250px;
+    width: 300px;
+    height: 320px;
 }
 
 
@@ -222,7 +222,7 @@ footer{
     padding: 10px;
 }
 
-footer img{
+footer p a img{
     width: 25px;
     margin: 5px 4px -5.7px 0px;
 }
