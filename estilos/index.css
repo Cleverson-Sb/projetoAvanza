@@ -203,8 +203,6 @@ aside a{
     bottom: 0;
     left: 0;
     width: 100%;
-    max-width: 1000px;
-    min-width: 300px;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
