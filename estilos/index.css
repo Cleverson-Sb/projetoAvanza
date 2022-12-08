@@ -39,6 +39,7 @@ header > img{
     max-width: 300px;
 }
 
+
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -77,14 +78,14 @@ nav > a > img{
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    margin-bottom: -145px;
 }
 
 .custom-shape-divider-top-1669915133 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 100%;
+    max-height: 150px;
 }
 
 .custom-shape-divider-top-1669915133 .shape-fill {
@@ -94,6 +95,7 @@ nav > a > img{
 main{ 
     min-width: 300px;
     max-width: 1000px;
+    margin-top: -10px;
     margin: auto;
     background-color: white;
     padding: 145px 20px 20px 20px;
@@ -201,6 +203,8 @@ aside a{
     bottom: 0;
     left: 0;
     width: 100%;
+    max-width: 1000px;
+    min-width: 300px;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
