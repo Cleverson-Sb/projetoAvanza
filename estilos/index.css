@@ -128,7 +128,7 @@ main nav.faicha{
     text-align: center;
 }
 
-main a{
+main a.link__antes{
     text-decoration: none;
     background-color: var(--cor3);
     color: black;
@@ -160,6 +160,41 @@ main div#video > iframe{
     width: 90%;
     height: 90%;
 }
+
+aside{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+aside h3{
+    color: black;
+    background-color: var(--cor3);
+    margin: 0 -10 -0 -10;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside p{
+    text-align: center;
+    color: black;
+}
+
+aside a{
+    text-decoration: none;
+}
+
+ div#area__cliente, div#clube__avanza{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 10px;
+    width: 400px;
+    height: 250px;
+}
+
 
 .custom-shape-divider-bottom-1669991013 {
     position: relative;
